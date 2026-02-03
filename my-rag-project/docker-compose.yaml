@@ -1,0 +1,16 @@
+services:
+  rag-app:
+    build: .
+    container_name: rag-app
+    # ADD THESE TWO LINES BELOW
+    ports:
+      - "8501:8501"
+    volumes:
+      - ./data:/app/data
+      - ./db:/app/db
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    environment:
+      - OLLAMA_HOST=http://host.docker.internal:11434
+    tty: true
+    stdin_open: true
