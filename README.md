@@ -4,6 +4,13 @@ A high-performance, **completely offline** Retrieval-Augmented Generation (RAG) 
 
 ## 🌟 Key Features
 
+
+
+https://github.com/user-attachments/assets/3ece8d00-2dc8-4408-b763-a65fab17a35c
+
+
+
+
 * **100% Data Privacy:** Powered by **Ollama** and **Llama 3.2**, all processing happens locally on your hardware.
 * **Dynamic Document Ingestion:** Uses **LangChain** and **ChromaDB** to instantly index uploaded PDFs and clear memory between different document sessions.
 * **Modern UI:** A clean, reactive chat interface built with **Streamlit**.
