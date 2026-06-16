@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+env/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Generated data / vector stores / models (regenerated at runtime)
+db/
+chroma/
+*.sqlite3
+*.bin
+*.faiss
+embeddings/*.pkl
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
